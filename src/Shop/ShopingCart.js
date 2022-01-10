@@ -13,7 +13,7 @@ function ShopingCart() {
   let dispatch = useDispatch();
   return (
     <div className="container py-5">
-      <div className="row">
+      <div className="row pb-5">
         <div className="col-12">
           <table className="table table-borderless">
             <thead>

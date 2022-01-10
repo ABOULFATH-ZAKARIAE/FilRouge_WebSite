@@ -20,7 +20,7 @@ function Card({ product }) {
           <small className="text-muted">
             {moment(product.createdAt).fromNow()}
           </small>
-          <h5 className="card-title">{product.name}</h5>
+          <h5 className="card-title">{product.name.substring(0, 30)}</h5>
           <div className="card-text">
             <div className="row align-items-center">
               <div className="col-6">

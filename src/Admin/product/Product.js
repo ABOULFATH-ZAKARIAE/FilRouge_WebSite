@@ -144,7 +144,7 @@ function Product() {
               <td scope="col">{item.sold}</td>
               <td scope="col">
                 <div className="row">
-                  <div className="col-3">
+                  <div className="col-12 my-1">
                     <button
                       onClick={() => setProductId(item)}
                       type="button"
@@ -266,7 +266,7 @@ function Product() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-3">
+                  <div className="col-12 my-1">
                     <button
                       onClick={() => setDeleteId(item)}
                       type="button"
