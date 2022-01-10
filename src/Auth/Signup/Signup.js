@@ -10,11 +10,7 @@ const Signup = (props) => {
   const [user, setUser] = useState({
     name: "",
     email: "",
-    password: "",
-    phone: "",
-    cin: "",
-    postal: 0,
-    address: "",
+    password: ""
   });
 
   const handleChange = (e) => {
